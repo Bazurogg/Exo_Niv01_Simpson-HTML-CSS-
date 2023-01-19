@@ -1,0 +1,126 @@
+/* **********************GENERAL************************************ */
+*{
+    margin:0; /*marge extérieur */
+    padding:0; /*marge intérieur */
+    box-sizing: border-box; 
+}
+/* Toujours commencer par cette partie générale */
+
+body {
+    font-family: 'Arial';
+    background-color: rgba(238, 211, 60, 0.884);
+}
+#main_bloc{
+    
+    width: 80%;
+    margin:auto;
+    
+}
+/* 
+*************************header********************************************* */
+
+h2 {
+    text-align: center;
+    color: white;
+    background-color: rgb(53, 181, 255);
+    font-size: 50px;
+    
+}
+figure .family{
+       width: 100%;
+       vertical-align: top; /* Supprimer le petit liseré de l'image restant */     
+    }
+/* 
+
+*****************************************principal********************************* */
+
+
+main {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+article {
+    padding: 20px;
+    font-size: 15px;
+    
+}
+
+.p1 {
+    text-align: justify;
+
+
+}
+
+nav {
+    background-color: rgb(53, 181, 255);
+    height: max-content;
+    padding: 0 30px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+ul a {
+    color: white;
+}
+
+ul li{
+    margin: 10px 0;
+}
+
+aside {
+    padding: 10px 20px;
+    background-color: rgb(53, 181, 255);
+}
+
+aside figure {
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+figcaption .matt {
+    margin: 10px;
+}
+
+h3 {
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+
+}
+.pauteur {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+    
+}
+
+/* ********************************FOOTER************************************ */
+
+small {
+    color: white;  
+}
+
+footer {
+    height: 30px;
+    background-color: rgb(34, 54, 145);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
